@@ -1,28 +1,40 @@
 body {
-    text-align: center;
+	background: yellow;
 }
 
-.quadrado {
-    text-align: center;
-    width: 50px;
-    background: #eee;
-    display: inline-block;
-    padding: 40px;
-    font-size: 60px;
-    margin: 5px;
-    cursor: pointer;
-    color: #eee;
+#grade {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
 }
 
-.jogador, .vencedor {
-    font-size: 30px;
-    margin-top: 10px;
+#grade button {
+	font-size: 50pt;
 }
 
-button {
-    margin-top: 10px;
-    width: 100px;
-    height: 30px;
-    background: #eee;
-    cursor: pointer;
+#reiniciar{
+	display: grid;
+	grid-template-columns: 100px;
+	grid-template-rows: 50px;
+}
+
+#reiniciar button {
+	font-size: 15pt
+}
+
+#jogo{
+	display:none;
+}
+
+#timer {
+	font-size: 60pt;
+}
+
+#gameover {
+	font-size: 70pt;
+	color: red;
+}
+#return button{
+    display: block;
+    
 }
